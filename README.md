@@ -321,3 +321,9 @@ Inspirado en las mejores landing pages del mercado, incluyendo [Cal AI](https://
 # template-lading
 # template-lading
 # template-lading
+
+
+##References
+https://www.todoist.com/
+https://cookpanion.net/#home
+https://www.calai.app/
