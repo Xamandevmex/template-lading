@@ -1,0 +1,189 @@
+import { LandingConfig } from './landing.config';
+
+/**
+ * PLANTILLA DE CONFIGURACIÓN PERSONALIZADA
+ * 
+ * 1. Copia este archivo y renómbralo a: mi-producto.config.ts
+ * 2. Completa todos los campos con la información de tu producto
+ * 3. Importa tu configuración en app/page.tsx
+ * 
+ * Ejemplo de uso:
+ * import { miProductoConfig } from '@/config/mi-producto.config';
+ */
+
+export const miProductoConfig: LandingConfig = {
+  // ============================================
+  // INFORMACIÓN DEL PRODUCTO
+  // ============================================
+  product: {
+    name: "", // Ej: "Mi App"
+    tagline: "", // Ej: "La mejor app para..."
+    description: "", // Descripción corta para el footer
+    logo: "", // Opcional: ruta a tu logo
+  },
+
+  // ============================================
+  // HERO SECTION (Primera Pantalla)
+  // ============================================
+  hero: {
+    badge: "", // Ej: "⭐ Usado por 10,000 personas"
+    title: "", // Título principal - hazlo llamativo
+    subtitle: "", // Subtítulo explicativo
+    cta: {
+      primary: "", // Ej: "Descargar Ahora"
+      secondary: "", // Opcional: "Ver Demo"
+    },
+    stats: {
+      users: "", // Ej: "10K+"
+      rating: "", // Ej: "4.9"
+    },
+  },
+
+  // ============================================
+  // FEATURES (Características)
+  // ============================================
+  features: {
+    title: "", // Ej: "¿Qué incluye?"
+    subtitle: "", // Opcional: texto complementario
+    items: [
+      {
+        title: "", // Nombre de la característica
+        description: "", // Descripción breve
+        icon: "Camera", // Opciones: Camera, Database, Brain, Zap, Shield, TrendingUp
+      },
+      {
+        title: "",
+        description: "",
+        icon: "Database",
+      },
+      {
+        title: "",
+        description: "",
+        icon: "Brain",
+      },
+      // Añade más características según necesites
+    ],
+  },
+
+  // ============================================
+  // BENEFITS (Beneficios / Por qué elegirnos)
+  // ============================================
+  benefits: {
+    title: "", // Ej: "¿Por qué elegir [Tu Producto]?"
+    subtitle: "", // Opcional
+    items: [
+      {
+        title: "", // Beneficio principal
+        description: "", // Explicación detallada
+        icon: "Clock", // Opciones: Clock, Link, TrendingDown, Sparkles, Target, Heart
+      },
+      {
+        title: "",
+        description: "",
+        icon: "Link",
+      },
+      {
+        title: "",
+        description: "",
+        icon: "TrendingDown",
+      },
+      // Añade más beneficios según necesites
+    ],
+  },
+
+  // ============================================
+  // TESTIMONIALS (Testimonios de Usuarios)
+  // ============================================
+  testimonials: {
+    title: "", // Ej: "Lo que dicen nuestros usuarios"
+    subtitle: "", // Opcional
+    items: [
+      {
+        name: "", // Nombre del usuario
+        role: "", // Opcional: Cargo o descripción
+        content: "", // El testimonio
+        avatar: "", // Opcional: URL de la imagen
+        rating: 5, // 1-5 estrellas
+      },
+      {
+        name: "",
+        role: "",
+        content: "",
+        rating: 5,
+      },
+      {
+        name: "",
+        role: "",
+        content: "",
+        rating: 5,
+      },
+      // Añade más testimonios según necesites (recomendado: 3-6)
+    ],
+  },
+
+  // ============================================
+  // FINAL CTA (Llamado a la Acción Final)
+  // ============================================
+  finalCta: {
+    title: "", // Ej: "¡EMPIEZA HOY MISMO!"
+    subtitle: "", // Ej: "Sin tarjeta de crédito. Cancela cuando quieras."
+    buttonText: "", // Ej: "Crear Cuenta Gratis"
+  },
+
+  // ============================================
+  // LINKS Y REDES SOCIALES
+  // ============================================
+  links: {
+    appStore: "", // URL de App Store (si aplica)
+    playStore: "", // URL de Google Play (si aplica)
+    website: "", // Tu sitio web
+    social: {
+      twitter: "", // https://twitter.com/tu-usuario
+      instagram: "", // https://instagram.com/tu-usuario
+      linkedin: "", // https://linkedin.com/company/tu-empresa
+      tiktok: "", // https://tiktok.com/@tu-usuario
+    },
+  },
+
+  // ============================================
+  // TEMA (Opcional - Personaliza colores)
+  // ============================================
+  theme: {
+    primaryColor: "", // Opcional: color hexadecimal
+    accentColor: "", // Opcional: color hexadecimal
+  },
+};
+
+/**
+ * CHECKLIST DE PERSONALIZACIÓN
+ * 
+ * Básico (Mínimo Viable):
+ * □ Nombre del producto
+ * □ Título del hero
+ * □ Subtítulo del hero
+ * □ CTA primario
+ * □ Al menos 3 features
+ * □ Al menos 3 benefits
+ * 
+ * Recomendado:
+ * □ Badge del hero
+ * □ Stats (usuarios y rating)
+ * □ Al menos 3 testimonios
+ * □ Links a redes sociales
+ * □ Subtítulos en secciones
+ * 
+ * Avanzado:
+ * □ Logo del producto
+ * □ Avatares en testimonios
+ * □ CTA secundario
+ * □ Links a stores (App Store / Google Play)
+ * □ Colores personalizados (theme)
+ * 
+ * TIPS:
+ * - Sé claro y conciso en los textos
+ * - Usa números y datos concretos cuando sea posible
+ * - Los testimonios reales generan más confianza
+ * - Testea en móvil, tablet y desktop
+ * - Experimenta con diferentes CTAs para ver qué funciona mejor
+ */
+
